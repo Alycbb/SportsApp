@@ -1,4 +1,5 @@
-React Native Android App
+React Native Android App.
+
 Required Environment:
 1.	Virtual (Android Studio) or real Android Device
 Android Studio (if not real Android Device)
