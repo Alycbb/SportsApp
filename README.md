@@ -23,14 +23,17 @@ Watchman is a tool by Facebook for watching changes in the filesystem
 Homebrew (only for MacOS and Linux):
 In terminal:
 //install homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
 After install homebrew, we start to install node, watchman, Java Development Kit:
 //install node in terminal use homebrew
-$brew install node
+>brew install node
+
 //install watchman in terminal use homebrew
-$brew install watchman
+>brew install watchman
+
 //install JDK in terminal use homebrew
-$brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+>brew cask install adoptopenjdk/openjdk/adoptopenjdk8
 
 
 For Windows:
@@ -55,14 +58,14 @@ Instruction website: https://expressjs.com/en/starter/installing.html
 The nodejs have to be installed first (npm will be installed automatically), 
 In terminal:
 //change the path to our app
-$ cd SportsApp 
+>cd SportsApp
+
 // install express and save in dependencies list
-$ npm install express –save
+>npm install express –save
 
 Download nodemon to automatically restart the server when you made changes to backend.
 To install npm, install nodejs.
-
-$npm i --save-dev nodemon
+>npm i --save-dev nodemon
 
 
 
@@ -70,11 +73,11 @@ $npm i --save-dev nodemon
 
 For MacOS:
 In terminal:
-$ brew tap mongodb/brew
-$ brew install mongodb-community
+>brew tap mongodb/brew
+>brew install mongodb-community
 //for me is mongod --dbpath=/usr/local/var/mongodb
 //check where the mongodb is downloaded, then add in dbpath
-$ mongod --dbpath=/path/to/mongo/db
+>mongod --dbpath=/path/to/mongo/db
 
 For windows:
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
